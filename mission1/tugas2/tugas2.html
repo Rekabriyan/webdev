@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2</title>
+    <link href="https://fonts.cdnfonts.com/css/source-sans-pro" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="tugas2.css">
+       
+</head>
+
+<body class="bg-white">
+    <nav class="navbar navbar-expand-lg bg-secondary-subtle ">
+        <div class="container-lg px-5 d-block d-lg-flex">
+            <a class="nav-gambar" href="tugas2.html">
+                <img src="https://hackdesign.org/assets/logo-941fdc47b5760af9654de5b6ba12fba1f4073426b16b2ebbb519e13b6c5a9600.svg" alt = "logo" width="200" class=""/>
+            </a>
+            <div class="d-block" id="navbarNavAltMarkup">
+                <div class="menu d-flex gap-4 justify-content-start justify-content-lg-end text-lg-end py-2">
+                    <a class=" d-none d-md-flex fs-6 " href="#">View all lessons</a>
+                    <a class=" d-md-none fs-6 text-danger" href="#">Become a Patron</a>
+                    <a class=" d-md-none fs-6" href="#">Lessons</a>
+                    <a class=" fs-6" href="#">Toolkit</a>
+                    <a class=" d-md-none fs-6" href="#">Sign In</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid bg-secondary-subtle">
+        <div class="container-lg text-center py-5">
+            <h1 class="description">
+                An <span class="text-danger">easy follow design course</span> for people who do amazing things.
+            </h1>
+        </div>
+        <div class="container-lg text-center fs-5">
+            <p>
+                Receive a design lesson in your inbox each week, hand crafted by a design pro. Learn at your own pace, and apply it to your real life work.
+            </p>
+        </div>
+
+        <div class="container d-flex justify-content-center my-5">
+            <div class="input-group input-group-lg mb-3" style="max-width: 500px">
+                <input type="text" class="form-control" placeholder="Email Address">
+                <button class="btn button-green" type="button">Get Started</button>
+            </div>
+        </div>
+
+        <div class="container-lg d-flex flex-column flex-lg-row justify-content-center align-items-center text-center gap-5">
+            <div class="d-flex flex-column align-items-center">
+                <div class="my-3">
+                    <img src="https://hackdesign.org/assets/color-microscope-3edea9200d15e8d748cd53cc692529f641f0b7b379c0e5a37f4fbe69adbf6aba.svg"  width="100px">
+                </div>
+                <div class="mt-2">
+                    <h3 class="mb-3">Curated Resources</h3>
+                    <p>
+                        Don't know where to start? We’ve enlisted the world’s top designers to craft lessons for learning the tools, techniques & terminology of good design.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <div class="my-3">
+                    <img src="https://hackdesign.org/assets/game-controller-0de063804def29aaa6d31192fba9c80c2e98016d082f733167dd69d977e5c55f.svg" class="my-3" width="100px">
+                </div>
+                <div class="mt-2">
+                    <h3 class="mb-3">Interactive Content</h3>
+                    <p>
+                        Learn by doing. Play with design puzzles and challenging games as you learn. Test your skills and explore possibilities.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <div class="my-3">
+                    <img src="https://hackdesign.org/assets/design-tools-2cebe17bf390db38213d28c13bdccc598093fb3d3291ad0474853d3bb175ddcf.svg" class="my-3" width="100px">
+                </div>
+                <div class="mt-2">
+                    <h3 class="mb-3">Awesome Design Tools</h3>
+                    <p>
+                        We’ve curated a list of the best design tools to help you figure out which ones to learn, and discover new and helpful tools you may have never heard of.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-md py-5 bg-white d-flex flex-column align-items-center">
+        <h1 class="fw-bold text-center mb-5">Meet your instructors</h1>
+
+        <div class="container-sm row g-3" id="instructors-container">
+            <!-- Contents rendered from renderInstructors.js -->
+        </div>
+    </div>
+
+    
+    <div class="container-sm d-flex justify-content-center mt-2 mb-5 ">
+        <div class="container d-flex flex-column align-items-center bg-secondary-subtle w-auto px-5 py-3">
+            <h5 class="fw-bold">Join 400,000+ others in learning design</h5>
+            <p>Receive a design lesson each week, crafted by a design pro.</p>
+            <div class="input-group mb-3" style="max-width: 400px">
+                <input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn button-green" type="button">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-md d-flex justify-content-between px-5 mt-5 ">
+        <p>© 2022</p>
+        <div class="d-flex gap-4">
+            <a>About</a>
+            <a>Contacts</a>
+            <a>Curators</a>
+            <a>Legal</a>
+        </div>
+    </footer>
+
+    <script src="renderInstructors.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>

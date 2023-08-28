@@ -1,0 +1,112 @@
+.biru-tua { 
+    grid-area: biru-tua;
+    background-color: blue;
+    text-align: center;
+    padding: 70px;
+    border: 5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+.kuning { 
+    grid-area: kuning;
+    background-color: yellow;
+    border: 5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .merah { 
+    grid-area: merah;
+    background-color: red;
+    color: white; 
+    border: 5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hijau { 
+    grid-area: hijau; 
+    background-color: green;
+    border: 5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hitam { 
+    grid-area: hitam; 
+    background-color: black;
+    color: white;
+    border: 5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.coklat { 
+    grid-area: coklat; 
+    background-color: #806000;
+    color: white;
+    border: 5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ungu { 
+    grid-area: ungu;
+    background-color: purple;
+    color: white;
+    border: 5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+.orange { 
+    grid-area: oren; 
+    background-color: orange;
+    border: 5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.putih { 
+    grid-area: putih;
+    background-color: white;
+    border: 5px solid black; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+.abu { 
+    grid-area: abu;
+    background-color: grey;
+    border: 5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .pink { 
+    grid-area: merah-muda;
+    background-color: pink;
+    border: 5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+.biru { 
+    grid-area: biru; 
+    background-color: blue;
+    border: 5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'biru-tua biru-tua hitam hitam hitam hitam'
+    'biru-tua biru-tua coklat coklat putih merah-muda'
+    'biru-tua biru-tua coklat coklat putih biru'
+    'kuning kuning ungu ungu putih biru'
+    'merah merah ungu ungu abu abu'
+    'hijau hijau oren oren abu abu';
+   
+  /* padding: 10px; */
+  grid-auto-rows: minmax(100px, auto);
+  border: 5px solid black;
+}
+
+.grid-container > div {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 30px 0;
+font-size: 35px;
+}
